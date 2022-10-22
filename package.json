@@ -1,11 +1,16 @@
 {
   "name": "serbian-script-converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility functions for converting cyrilic script to latin and vice versa",
   "main": "src/app.js",
   "scripts": {
     "dev": "nodemon",
     "test": "jest --watchAll"
+  },
+  "keywords" : ["serbian", "latin", "cyrilic", "converter", "script"],
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/DedaDev/serbian-script-converter.git"
   },
   "author": "DedaDev",
   "license": "ISC",

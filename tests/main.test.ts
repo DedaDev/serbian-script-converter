@@ -43,3 +43,16 @@ describe("full sentences", () => {
         expect(cyrilicSentenceEquivalent).toBe("на вр' брда врба мрда, !анјон,");
     });
 });
+
+
+describe("types passed", () => {
+    test("does it convert if mixed script is passed to latin", () => {
+        const cyrilicEquivalent = latinToCyrilic("то to то је то хајде да се ВоЛиМо");
+        expect(cyrilicEquivalent).toBe("то то то је то хајде да се ВоЛиМо");
+    });
+
+    test("does it convert if mixed script is passed to cyrilic", () => {
+        const cyrilicEquivalent = cyrilicToLatin("svetlo ми бије u oči");
+        expect(cyrilicEquivalent).toBe("svetlo mi bije u oči");
+    });
+});
