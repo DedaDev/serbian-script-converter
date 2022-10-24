@@ -2,9 +2,10 @@
   "name": "serbian-script-converter",
   "version": "1.0.1",
   "description": "Utility functions for converting cyrilic script to latin and vice versa",
-  "main": "src/app.js",
+  "main": "build/app.js",
   "scripts": {
     "dev": "nodemon",
+    "build" : "tsc --build",
     "test": "jest --watchAll"
   },
   "keywords" : ["serbian", "latin", "cyrilic", "converter", "script"],
