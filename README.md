@@ -4,14 +4,20 @@ Utility functions for converting cyrilic script to latin and vice versa
 
  - Typescript compatible
 
+## Installation
+
+```shell
+npm i serbian-script-converter
+```
+
 ## Usage
 
 ```ts
 import { latinToCyrilic, cyrilicToLatin } from 'serbian-script-converter';
 
-latinToCyrilic('Ti bi htela pesmom da ti kažem, koliko te srce moje voli') 
-//Ти би хтела песмом да ти кажем, колико те срце моје воли
+latinToCyrilic("Vino točim a vino ne pijem, srce imam osećanja krijem") 
+//Вино точим а вино не пијем, срце имам осећања кријем
 
-cyrilicToLatin('Као болан зору, као звеће росу, као очи своје, толико те воли срце моје') 
-// Kao bolan zoru, kao cveće rosu, kao oči svoje, toliko te voli srce moje
+cyrilicToLatin("Усне имам ал' кога да љубим, кад си с другим а ја младост губим") 
+// Usne imam al' koga da ljubim, kad si s drugim a ja mladost gubim
 ```

@@ -2,7 +2,7 @@ import {describe, expect, test} from "@jest/globals";
 import { cyrilicToLatin } from "../src/app";
 import { latinToCyrilic } from "../src/app";
 
-describe("reči", () => {
+describe("words", () => {
     test("expect to convert complext latin words to cyrilic", () => {
         const latinEquivalent = latinToCyrilic("Anjon");
         expect(latinEquivalent).toBe("Анјон");
